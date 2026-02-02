@@ -1,5 +1,12 @@
 :root {
-
+--main-white-color: #FFFFFF;
+--main-gray-color: #141414;
+--main-black-color: #000000;
+--main-primari-color: #26C7EA;
+--main-blue-darck-color: #0B0E66;
+--main-deep-blue: #0A3853;
+--main-border-color: rgba(43, 74, 97, 0.87);
+--main-light-blue: #94CFFF;
 }
 
 body {

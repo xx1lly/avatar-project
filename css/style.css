@@ -9,12 +9,166 @@
 --main-light-blue: #94CFFF;
 }
 
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
-.btn {
-    font-family: "Headland One", serif;
+.container {
+  max-width: 1440px;
+  padding: 0 204px;
+  margin: 0 auto;
 }
+
+header {
+  width: 100%;
+  height: 150px;
+  padding-top: 39px;
+ background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),
+ url(../img/bacground-header.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ 
+}
+
+.header-logo {
+  filter: brightness(90%);
+}
+
+.header_btn {
+  width: 107px;
+  height: 35px;
+  border-radius: 20px 0px 20px 0px;
+  border-color: #26C7EA;
+  background-color: #0B0E66;
+  color: #26C7EA;
+}
+
+.header_btn:hover {
+  background-color: #0a0d58bd;
+  cursor: pointer;
+}
+
+.hero {
+  width: 100%;
+  height: 740px;
+}
+
+.quote {
+  width: 100%;
+  height: 350px;
+}
+
+.trailer {
+  width: 100%;
+  height: 741px;
+}
+
+.language {
+  width: 100%;
+  height: 704px;
+}
+
+footer {
+  width: 100%;
+  height: 223px;
+}
+
+.nav_list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.nav_list_item a {
+  text-decoration: none;
+  color: inherit;
+  justify-content: center;
+}
+
+.nav_list_item {
+  color: #ffffffc3;
+  font-size: 20px;
+}
+.nav_list_item:hover {
+  color: #94CFFF;
+  cursor: pointer;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero_socials {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.hero {
+  background-image: url(../img/hero-bacground.png);
+}
+
+.hero_title {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.hero_title:nth-child(1) {
+  padding-top: 140px;
+}
+
+
+ 
+.hero_socials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  gap: 10px;
+  top: 400px;
+  right: 185px;
+}
+
+.hero_img {
+  padding-left: 55px;
+}
+
+.hero_btn{
+    width: 190px;
+  height: 55px;
+  border-radius: 20px 0px 20px 0px;
+  border-color: #26C7EA;
+  background-color: #0B0E66;
+  color: #26C7EA;
+  overflow: hidden;
+  white-space: normal;
+}
+
+.language_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.language_list_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
